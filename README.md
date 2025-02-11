@@ -40,21 +40,21 @@ You can try out the game by visiting the live demo here:
    node -v
 
 2. Clone the repository:
-
-git clone https://github.com/anna-agerone/2048-game.git
+   ```bash
+   git clone https://github.com/anna-agerone/2048-game.git
 
 3. Navigate into the project directory:
-
-cd 2048-game
+   ```bash
+   cd 2048-game
 
 4. Install the project dependencies:
-
-npm install
+   ```bash
+   npm install
 
 5. Start the Game
 Once you've installed the dependencies, you can start the project using the following commands:
-
-npm start
+   ```bash
+   npm start
 
 🚀 This will launch the game and open it in your default web browser.
 
