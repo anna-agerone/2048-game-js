@@ -36,23 +36,28 @@ You can try out the game by visiting the live demo here:
 ## ⚙️ Installation & Prerequisites
 
 1. Ensure that you have [Node.js](https://nodejs.org/) installed. This project requires Node.js version 14 or higher. You can check your Node.js version using:
+   
    ```bash
    node -v
 
-2. Clone the repository:
+3. Clone the repository:
+   
    ```bash
    git clone https://github.com/anna-agerone/2048-game.git
 
-3. Navigate into the project directory:
+5. Navigate into the project directory:
+   
    ```bash
    cd 2048-game
 
-4. Install the project dependencies:
+7. Install the project dependencies:
+
    ```bash
    npm install
 
-5. Start the Game
+9. Start the Game
 Once you've installed the dependencies, you can start the project using the following commands:
+
    ```bash
    npm start
 
