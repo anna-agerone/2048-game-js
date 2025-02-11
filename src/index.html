@@ -1,13 +1,83 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Miami</title>
-    <link rel="stylesheet" href="./styles/main.scss">
-    <script src="scripts/main.js" defer></script>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>2048</title>
+    <link
+      rel="icon"
+      href="./images/2048-icon.png"
+    />
+    <link
+      rel="stylesheet"
+      href="./styles/main.scss"
+    />
   </head>
   <body>
-    <h1>Landing Page</h1>
+    <div class="container">
+      <div class="game-header">
+        <h1>2048</h1>
+        <div class="controls">
+          <p class="info">
+            Score:
+            <span class="game-score">0</span>
+          </p>
+          <button class="button start">Start</button>
+        </div>
+      </div>
+
+      <h3>Combine the numbers and aim to reach the 2048 tile!</h3>
+
+      <table class="game-field">
+        <tbody>
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+
+          <tr class="field-row">
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+            <td class="field-cell"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="message-container">
+        <p class="message message-lose hidden">Game over! Restart the game?</p>
+        <p class="message message-win hidden">Winner! Congrats! You did it!</p>
+        <p class="message message-start">
+          Press "Start" to begin game. Good luck!
+        </p>
+        <p class="message message-rule">
+          HOW TO PLAY: Use the arrow keys to move the tiles around. When two
+          tiles with the same number collide, they combine into a single tile!
+        </p>
+      </div>
+    </div>
+    <script
+      type="module"
+      src="scripts/main.js"
+    ></script>
   </body>
 </html>
