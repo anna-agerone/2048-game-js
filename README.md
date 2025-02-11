@@ -18,7 +18,7 @@ This implementation of the 2048 game is built with JavaScript, HTML, and CSS, an
 
 You can try out the game by visiting the live demo here:
 
-[**Demo**](https://anna-agerone.github.io/2048-game/)
+[**DEMO LINK**](https://anna-agerone.github.io/2048-game/)
 
 ## 🎮 How to Play
 
